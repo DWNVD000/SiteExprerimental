@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0px 11%;
+}
+
+body {
+    background-color: #088484;
+    color: aliceblue;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho-botoes {
+    font-size: 1,5rem;
+    color: #ffbc5c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.laranja {
+    color: #ffbc5c;
+}
+
+.azul-clarinho {
+    color: #FDD9A7;
+}
+
+.conteiner {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.texto-lado {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 500px;
+    padding: 0px 335px;
+}
+
+.tamanho-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.93rem;
+    text-align: center;
+}
+
+.tamanho-paragrafo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.titulo-botoes {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    
+}
+
+.botao-colorido {
+    border: 2px outset #FDD9A7;
+    width:  50%;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    padding: 20px 0px;
+    text-decoration: none;
+    color: #ffbc5c;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.botao-colorido:hover {
+    background-color: #087474;
+}
+
+.roda-pe {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 32.5px;
+    color: #ffbc5c;
+    background-color: #087474;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 400px;
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .texto-lado {
+        padding: 5%;
+    }
+
+    .texto-lado {
+        width: auto;
+    }
+}
